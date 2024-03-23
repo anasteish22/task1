@@ -1,58 +1,10 @@
-01:29:20.133 [main] INFO  main.Main - Basic array №1: [5, -2, 1, 16, 10, 3]
-01:29:20.137 [main] INFO  anastasia.task1.service.impl.ArraySumCounterImpl - The sum is 33
-01:29:20.139 [main] INFO  anastasia.task1.service.impl.ArrayAverageCounterImpl - The average is 5.5
-01:29:20.140 [main] INFO  anastasia.task1.service.impl.ArrayElementsReplacementImpl - The changed array is [8, 2, 4, 2, 2, 6]
-01:29:20.140 [main] INFO  anastasia.task1.service.impl.ArrayMinMaxFinderImpl - The min is -2
-01:29:20.140 [main] INFO  anastasia.task1.service.impl.ArrayMinMaxFinderImpl - The max is 16
-01:29:20.141 [main] INFO  anastasia.task1.service.impl.ArrayPosNegCounterImpl - The num of positives is 5
-01:29:20.141 [main] INFO  anastasia.task1.service.impl.ArrayPosNegCounterImpl - The num of negatives is 1
-01:29:20.142 [main] INFO  anastasia.task1.service.impl.ArraySumCounterImpl - The sum is 33
-01:29:20.143 [main] INFO  main.Main - Basic array №2: [-6, -9, -4, -11, 1, 6]
-01:29:20.143 [main] INFO  anastasia.task1.service.impl.ArraySumCounterImpl - The sum is -23
-01:29:20.143 [main] INFO  anastasia.task1.service.impl.ArrayAverageCounterImpl - The average is -3.8333333333333335
-01:29:20.143 [main] INFO  anastasia.task1.service.impl.ArrayElementsReplacementImpl - The changed array is [2, -6, 2, -8, 4, 2]
-01:29:20.143 [main] INFO  anastasia.task1.service.impl.ArrayMinMaxFinderImpl - The min is -11
-01:29:20.143 [main] INFO  anastasia.task1.service.impl.ArrayMinMaxFinderImpl - The max is 6
-01:29:20.144 [main] INFO  anastasia.task1.service.impl.ArrayPosNegCounterImpl - The num of positives is 2
-01:29:20.144 [main] INFO  anastasia.task1.service.impl.ArrayPosNegCounterImpl - The num of negatives is 4
-01:29:20.144 [main] INFO  anastasia.task1.service.impl.ArraySumCounterImpl - The sum is -23
-01:29:20.144 [main] INFO  main.Main - Basic array №3: [8, 2, -7, 1, 13, 0]
-01:29:20.144 [main] INFO  anastasia.task1.service.impl.ArraySumCounterImpl - The sum is 17
-01:29:20.144 [main] INFO  anastasia.task1.service.impl.ArrayAverageCounterImpl - The average is 2.8333333333333335
-01:29:20.144 [main] INFO  anastasia.task1.service.impl.ArrayElementsReplacementImpl - The changed array is [2, 2, -4, 4, 16, 2]
-01:29:20.144 [main] INFO  anastasia.task1.service.impl.ArrayMinMaxFinderImpl - The min is -7
-01:29:20.145 [main] INFO  anastasia.task1.service.impl.ArrayMinMaxFinderImpl - The max is 13
-01:29:20.145 [main] INFO  anastasia.task1.service.impl.ArrayPosNegCounterImpl - The num of positives is 4
-01:29:20.145 [main] INFO  anastasia.task1.service.impl.ArrayPosNegCounterImpl - The num of negatives is 1
-01:29:20.145 [main] INFO  anastasia.task1.service.impl.ArraySumCounterImpl - The sum is 17
-01:29:20.145 [main] INFO  main.Main - Empty array: []
-01:29:20.145 [main] ERROR anastasia.task1.service.impl.ArrayAverageCounterImpl - The array is empty
-18:09:26.471 [main] INFO  main.Main - Basic array №1: [5, -2, 1, 16, 10, 3]
-18:09:26.473 [main] INFO  anastasia.task1.service.impl.ArraySumCounterImpl - The sum is 33
-18:09:26.474 [main] INFO  anastasia.task1.service.impl.ArrayAverageCounterImpl - The average is 5.5
-18:09:26.475 [main] INFO  anastasia.task1.service.impl.ArrayElementsReplacementImpl - The changed array is [8, 2, 4, 2, 2, 6]
-18:09:26.475 [main] INFO  anastasia.task1.service.impl.ArrayMinMaxFinderImpl - The min is -2
-18:09:26.475 [main] INFO  anastasia.task1.service.impl.ArrayMinMaxFinderImpl - The max is 16
-18:09:26.475 [main] INFO  anastasia.task1.service.impl.ArrayPosNegCounterImpl - The num of positives is 5
-18:09:26.475 [main] INFO  anastasia.task1.service.impl.ArrayPosNegCounterImpl - The num of negatives is 1
-18:09:26.476 [main] INFO  anastasia.task1.service.impl.ArraySumCounterImpl - The sum is 33
-18:09:26.476 [main] INFO  main.Main - Basic array №2: [-6, -9, -4, -11, 1, 6]
-18:09:26.476 [main] INFO  anastasia.task1.service.impl.ArraySumCounterImpl - The sum is -23
-18:09:26.476 [main] INFO  anastasia.task1.service.impl.ArrayAverageCounterImpl - The average is -3.8333333333333335
-18:09:26.476 [main] INFO  anastasia.task1.service.impl.ArrayElementsReplacementImpl - The changed array is [2, -6, 2, -8, 4, 2]
-18:09:26.476 [main] INFO  anastasia.task1.service.impl.ArrayMinMaxFinderImpl - The min is -11
-18:09:26.476 [main] INFO  anastasia.task1.service.impl.ArrayMinMaxFinderImpl - The max is 6
-18:09:26.476 [main] INFO  anastasia.task1.service.impl.ArrayPosNegCounterImpl - The num of positives is 2
-18:09:26.477 [main] INFO  anastasia.task1.service.impl.ArrayPosNegCounterImpl - The num of negatives is 4
-18:09:26.477 [main] INFO  anastasia.task1.service.impl.ArraySumCounterImpl - The sum is -23
-18:09:26.477 [main] INFO  main.Main - Basic array №3: [8, 2, -7, 1, 13, 0]
-18:09:26.477 [main] INFO  anastasia.task1.service.impl.ArraySumCounterImpl - The sum is 17
-18:09:26.477 [main] INFO  anastasia.task1.service.impl.ArrayAverageCounterImpl - The average is 2.8333333333333335
-18:09:26.477 [main] INFO  anastasia.task1.service.impl.ArrayElementsReplacementImpl - The changed array is [2, 2, -4, 4, 16, 2]
-18:09:26.477 [main] INFO  anastasia.task1.service.impl.ArrayMinMaxFinderImpl - The min is -7
-18:09:26.477 [main] INFO  anastasia.task1.service.impl.ArrayMinMaxFinderImpl - The max is 13
-18:09:26.477 [main] INFO  anastasia.task1.service.impl.ArrayPosNegCounterImpl - The num of positives is 4
-18:09:26.478 [main] INFO  anastasia.task1.service.impl.ArrayPosNegCounterImpl - The num of negatives is 1
-18:09:26.478 [main] INFO  anastasia.task1.service.impl.ArraySumCounterImpl - The sum is 17
-18:09:26.478 [main] INFO  main.Main - Empty array: []
-18:09:26.478 [main] ERROR anastasia.task1.service.impl.ArrayAverageCounterImpl - The array is empty
+22:49:43.096 [main] INFO  ArrayServiceImpl - The max is 6
+22:49:56.623 [main] INFO  ArrayServiceImpl - The min is 1
+22:57:28.655 [main] INFO  ArraySortServiceImpl - The original array: [3, 7, 2, 1, 8]
+22:57:28.657 [main] INFO  ArraySortServiceImpl - The sorted array: [1, 2, 3, 7, 8] (bubble sort)
+22:57:32.218 [main] INFO  ArraySortServiceImpl - The original array: [3, 7, 2, 1, 8]
+22:57:32.220 [main] INFO  ArraySortServiceImpl - The sorted array: [1, 2, 3, 7, 8] (bubble sort)
+22:57:37.784 [main] INFO  ArraySortServiceImpl - The original array: [3, 7, 2, 1, 8]
+22:57:37.786 [main] INFO  ArraySortServiceImpl - The sorted array: [1, 2, 3, 7, 8] (selection sort)
+22:57:44.162 [main] INFO  ArraySortServiceImpl - The original array: [3, 7, 2, 1, 8]
+22:57:44.164 [main] INFO  ArraySortServiceImpl - The sorted array: [1, 2, 3, 7, 8] (insertion sort)

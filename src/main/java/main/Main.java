@@ -2,6 +2,8 @@ package main;
 
 import by.anastasia.task1.entity.CustomArray;
 import by.anastasia.task1.exception.ArrayException;
+import by.anastasia.task1.service.ArrayService;
+import by.anastasia.task1.service.ArraySortService;
 import by.anastasia.task1.service.impl.*;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
@@ -11,11 +13,9 @@ import java.util.Arrays;
 
 public class Main {
     static final Logger LOGGER = LogManager.getLogger();
-    static ArrayAverageCounterImpl averageCounter = new ArrayAverageCounterImpl();
-    static ArrayElementsReplacementImpl elementsReplacement = new ArrayElementsReplacementImpl();
-    static ArrayMinMaxFinderImpl minMaxFinder = new ArrayMinMaxFinderImpl();
-    static ArrayPosNegCounterImpl posNegCounter = new ArrayPosNegCounterImpl();
-    static ArraySumCounterImpl sumCounter = new ArraySumCounterImpl();
+
+    static ArrayService arrayService = new ArrayServiceImpl();
+    static ArraySortService sortService = new ArraySortServiceImpl();
 
     static final CustomArray basicArray1 = new CustomArray(new int[]{5, -2, 1, 16, 10, 3});
     static final CustomArray basicArray2 = new CustomArray(new int[]{-6, -9, -4, -11, 1, 6});
@@ -24,39 +24,40 @@ public class Main {
 
     public static void main(String[] args) throws ArrayException {
         LOGGER.log(Level.INFO, "Basic array №1: " + Arrays.toString(basicArray1.getArray()));
-        averageCounter.countAverage(basicArray1);
-        elementsReplacement.replaceElements(basicArray1);
-        minMaxFinder.findMin(basicArray1);
-        minMaxFinder.findMax(basicArray1);
-        posNegCounter.countPositive(basicArray1);
-        posNegCounter.countNegative(basicArray1);
-        sumCounter.countSum(basicArray1);
+        arrayService.calculateAverage(basicArray1);
+        arrayService.replaceElements(basicArray1);
+        arrayService.findMin(basicArray1);
+        arrayService.findMax(basicArray1);
+        arrayService.countPositive(basicArray1);
+        arrayService.countNegative(basicArray1);
+        arrayService.calculateSum(basicArray1);
+        sortService.sortBubble(basicArray1);
 
         LOGGER.log(Level.INFO, "Basic array №2: " + Arrays.toString(basicArray2.getArray()));
-        averageCounter.countAverage(basicArray2);
-        elementsReplacement.replaceElements(basicArray2);
-        minMaxFinder.findMin(basicArray2);
-        minMaxFinder.findMax(basicArray2);
-        posNegCounter.countPositive(basicArray2);
-        posNegCounter.countNegative(basicArray2);
-        sumCounter.countSum(basicArray2);
+        arrayService.calculateAverage(basicArray2);
+        arrayService.replaceElements(basicArray2);
+        arrayService.findMin(basicArray2);
+        arrayService.findMax(basicArray2);
+        arrayService.countPositive(basicArray2);
+        arrayService.countNegative(basicArray2);
+        arrayService.calculateSum(basicArray2);
 
         LOGGER.log(Level.INFO, "Basic array №3: " + Arrays.toString(basicArray3.getArray()));
-        averageCounter.countAverage(basicArray3);
-        elementsReplacement.replaceElements(basicArray3);
-        minMaxFinder.findMin(basicArray3);
-        minMaxFinder.findMax(basicArray3);
-        posNegCounter.countPositive(basicArray3);
-        posNegCounter.countNegative(basicArray3);
-        sumCounter.countSum(basicArray3);
+        arrayService.calculateAverage(basicArray3);
+        arrayService.replaceElements(basicArray3);
+        arrayService.findMin(basicArray3);
+        arrayService.findMax(basicArray3);
+        arrayService.countPositive(basicArray3);
+        arrayService.countNegative(basicArray3);
+        arrayService.calculateSum(basicArray3);
 
         LOGGER.log(Level.INFO, "Empty array: " + Arrays.toString(emptyArray.getArray()));
-        averageCounter.countAverage(emptyArray);
-        elementsReplacement.replaceElements(emptyArray);
-        minMaxFinder.findMin(emptyArray);
-        minMaxFinder.findMax(emptyArray);
-        posNegCounter.countPositive(emptyArray);
-        posNegCounter.countNegative(emptyArray);
-        sumCounter.countSum(emptyArray);
+        arrayService.calculateAverage(emptyArray);
+        arrayService.replaceElements(emptyArray);
+        arrayService.findMin(emptyArray);
+        arrayService.findMax(emptyArray);
+        arrayService.countPositive(emptyArray);
+        arrayService.countNegative(emptyArray);
+        arrayService.calculateSum(emptyArray);
     }
 }
