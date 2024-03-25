@@ -10,12 +10,12 @@ import org.apache.logging.log4j.Logger;
 import java.util.Arrays;
 
 public class ArrayServiceImpl implements ArrayService {
-    public static Logger logger = LogManager.getLogger();
+    static final Logger LOGGER = LogManager.getLogger();
 
     @Override
     public int calculateSum(CustomArray array) throws ArrayException {
         if (array.length() < 1) {
-            logger.log(Level.ERROR, "The array is empty");
+            LOGGER.log(Level.ERROR, "The array is empty");
             throw new ArrayException("The array is empty");
         }
 
@@ -25,14 +25,14 @@ public class ArrayServiceImpl implements ArrayService {
             sum += array.getElement(i);
         }
 
-        logger.log(Level.INFO, "The sum is " + sum);
+        LOGGER.log(Level.INFO, "The sum is " + sum);
         return sum;
     }
 
     @Override
     public double calculateAverage(CustomArray array) throws ArrayException {
         if (array.length() < 1) {
-            logger.log(Level.ERROR, "The array is empty");
+            LOGGER.log(Level.ERROR, "The array is empty");
             throw new ArrayException("The array is empty");
         }
 
@@ -40,14 +40,14 @@ public class ArrayServiceImpl implements ArrayService {
         double average;
 
         average = (double) sum / array.length();
-        logger.log(Level.INFO, "The average is " + average);
+        LOGGER.log(Level.INFO, "The average is " + average);
         return average;
     }
 
     @Override
     public int findMin(CustomArray array) throws ArrayException {
         if (array.length() < 1) {
-            logger.log(Level.ERROR, "The array is empty");
+            LOGGER.log(Level.ERROR, "The array is empty");
             throw new ArrayException("The array is empty");
         }
 
@@ -59,7 +59,7 @@ public class ArrayServiceImpl implements ArrayService {
             }
         }
 
-        logger.log(Level.INFO, "The min is " + min);
+        LOGGER.log(Level.INFO, "The min is " + min);
         return min;
     }
 
@@ -77,14 +77,14 @@ public class ArrayServiceImpl implements ArrayService {
             }
         }
 
-        logger.log(Level.INFO, "The max is " + max);
+        LOGGER.log(Level.INFO, "The max is " + max);
         return max;
     }
 
     @Override
     public int countPositive(CustomArray array) throws ArrayException {
         if (array.length() < 1) {
-            logger.log(Level.ERROR, "The array is empty");
+            LOGGER.log(Level.ERROR, "The array is empty");
             throw new ArrayException("The array is empty");
         }
 
@@ -96,7 +96,7 @@ public class ArrayServiceImpl implements ArrayService {
             }
         }
 
-        logger.log(Level.INFO, "The num of positives is " + pos);
+        LOGGER.log(Level.INFO, "The num of positives is " + pos);
         return pos;
     }
 
@@ -114,14 +114,14 @@ public class ArrayServiceImpl implements ArrayService {
             }
         }
 
-        logger.log(Level.INFO, "The num of negatives is " + neg);
+        LOGGER.log(Level.INFO, "The num of negatives is " + neg);
         return neg;
     }
 
     @Override
     public int[] replaceElements(CustomArray array) throws ArrayException {
         if (array.length() < 1) {
-            logger.log(Level.ERROR, "The array is empty");
+            LOGGER.log(Level.ERROR, "The array is empty");
             throw new ArrayException("The array is empty");
         }
 
@@ -135,7 +135,7 @@ public class ArrayServiceImpl implements ArrayService {
                 newArray[i] = array.getElement(i) + 3;
             }
         }
-        logger.log(Level.INFO, "The changed array is " + Arrays.toString(newArray));
+        LOGGER.log(Level.INFO, "The changed array is " + Arrays.toString(newArray));
         return newArray;
     }
 }

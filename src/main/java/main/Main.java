@@ -2,6 +2,7 @@ package main;
 
 import by.anastasia.task1.entity.CustomArray;
 import by.anastasia.task1.exception.ArrayException;
+import by.anastasia.task1.util.IdGenerator;
 import by.anastasia.task1.service.ArrayService;
 import by.anastasia.task1.service.ArraySortService;
 import by.anastasia.task1.service.impl.*;
@@ -17,10 +18,10 @@ public class Main {
     static ArrayService arrayService = new ArrayServiceImpl();
     static ArraySortService sortService = new ArraySortServiceImpl();
 
-    static final CustomArray basicArray1 = new CustomArray(new int[]{5, -2, 1, 16, 10, 3});
-    static final CustomArray basicArray2 = new CustomArray(new int[]{-6, -9, -4, -11, 1, 6});
-    static final CustomArray basicArray3 = new CustomArray(new int[]{8, 2, -7, 1, 13, 0});
-    static final CustomArray emptyArray = new CustomArray(new int[]{});
+    static final CustomArray basicArray1 = new CustomArray(new int[]{5, -2, 1, 16, 10, 3}, IdGenerator.createId());
+    static final CustomArray basicArray2 = new CustomArray(new int[]{-6, -9, -4, -11, 1, 6}, IdGenerator.createId());
+    static final CustomArray basicArray3 = new CustomArray(new int[]{8, 2, -7, 1, 13, 0}, IdGenerator.createId());
+    static final CustomArray emptyArray = new CustomArray(new int[]{}, IdGenerator.createId());
 
     public static void main(String[] args) throws ArrayException {
         LOGGER.log(Level.INFO, "Basic array №1: " + Arrays.toString(basicArray1.getArray()));
@@ -41,6 +42,7 @@ public class Main {
         arrayService.countPositive(basicArray2);
         arrayService.countNegative(basicArray2);
         arrayService.calculateSum(basicArray2);
+        sortService.sortSelection(basicArray2);
 
         LOGGER.log(Level.INFO, "Basic array №3: " + Arrays.toString(basicArray3.getArray()));
         arrayService.calculateAverage(basicArray3);
@@ -50,6 +52,7 @@ public class Main {
         arrayService.countPositive(basicArray3);
         arrayService.countNegative(basicArray3);
         arrayService.calculateSum(basicArray3);
+        sortService.sortInsertion(basicArray3);
 
         LOGGER.log(Level.INFO, "Empty array: " + Arrays.toString(emptyArray.getArray()));
         arrayService.calculateAverage(emptyArray);

@@ -4,9 +4,15 @@ import java.util.Arrays;
 
 public class CustomArray {
     private int[] array;
+    private int arrayId;
 
     public CustomArray(int[] array) {
         this.array = array;
+    }
+
+    public CustomArray(int[] array, int arrayId) {
+        this.array = array;
+        this.arrayId = arrayId;
     }
 
     public int[] getArray() {
@@ -15,6 +21,14 @@ public class CustomArray {
 
     public void setArray(int[] array) {
         this.array = array;
+    }
+
+    public int getArrayId() {
+        return arrayId;
+    }
+
+    public void setArrayId(int arrayId) {
+        this.arrayId = arrayId;
     }
 
     public int length() {

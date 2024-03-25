@@ -10,7 +10,7 @@ import org.apache.logging.log4j.Logger;
 import java.util.Arrays;
 
 public class ArraySortServiceImpl implements ArraySortService {
-    final static Logger LOGGER = LogManager.getLogger();
+    static final Logger LOGGER = LogManager.getLogger();
     @Override
     public void sortBubble(CustomArray array) throws ArrayException {
         if (array.length() < 1) {
