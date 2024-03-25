@@ -1,5 +1,7 @@
 package by.anastasia.task1.entity;
 
+import by.anastasia.task1.util.IdGenerator;
+
 import java.util.Arrays;
 
 public class CustomArray {
@@ -8,11 +10,7 @@ public class CustomArray {
 
     public CustomArray(int[] array) {
         this.array = array;
-    }
-
-    public CustomArray(int[] array, int arrayId) {
-        this.array = array;
-        this.arrayId = arrayId;
+        this.arrayId = IdGenerator.createId();
     }
 
     public int[] getArray() {
