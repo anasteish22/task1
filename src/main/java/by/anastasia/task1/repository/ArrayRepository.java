@@ -1,30 +1,15 @@
 package by.anastasia.task1.repository;
 
 import by.anastasia.task1.entity.CustomArray;
+import by.anastasia.task1.exception.ArrayException;
+import by.anastasia.task1.repository.specification.Specification;
 
-import java.util.ArrayList;
 import java.util.List;
 
-public class ArrayRepository {
-    private List<CustomArray> customArrays;
-
-    public ArrayRepository(List<CustomArray> customArrays) {
-        this.customArrays = new ArrayList<>();
-    }
-
-    public List<CustomArray> getCustomArrays() {
-        return customArrays;
-    }
-
-    public void setCustomArrays(List<CustomArray> customArrays) {
-        this.customArrays = customArrays;
-    }
-
-    public boolean add(CustomArray array) {
-        return customArrays.add(array);
-    }
-
-    public boolean remove(CustomArray array) {
-        return customArrays.remove(array);
-    }
+public interface ArrayRepository {
+    List<CustomArray> getCustomArrays();
+    void setCustomArrays(List<CustomArray> customArrays);
+    boolean add(CustomArray array);
+    boolean remove(CustomArray array);
+    List<CustomArray> query (Specification specification) throws ArrayException;
 }

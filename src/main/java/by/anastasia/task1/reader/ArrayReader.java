@@ -2,6 +2,8 @@ package by.anastasia.task1.reader;
 
 import by.anastasia.task1.exception.ArrayException;
 
+import java.util.List;
+
 public interface ArrayReader {
-    public int[] readArray(String filename) throws ArrayException;
+    public List<int[]> readArray(String filename) throws ArrayException;
 }

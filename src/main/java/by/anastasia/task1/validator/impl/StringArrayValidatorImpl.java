@@ -13,7 +13,6 @@ public class StringArrayValidatorImpl implements StringArrayValidator {
     public boolean stringNumberValidate(String strNumber) {
         Pattern pattern = Pattern.compile(INT_NUMBER_REGEX);
         Matcher matcher = pattern.matcher(strNumber);
-
         return matcher.matches();
     }
 
@@ -21,7 +20,6 @@ public class StringArrayValidatorImpl implements StringArrayValidator {
     public boolean stringArrayValidate(String strArray) {
         Pattern pattern = Pattern.compile(INT_ARRAY_REGEX);
         Matcher matcher = pattern.matcher(strArray);
-
         return matcher.matches();
     }
 }

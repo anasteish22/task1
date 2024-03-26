@@ -8,17 +8,17 @@ public class CustomArray {
     private int[] array;
     private int arrayId;
 
-    public CustomArray(int[] array) {
-        this.array = array;
+    public CustomArray(int[] currentArray) {
+        this.array = Arrays.copyOf(currentArray, currentArray.length);
         this.arrayId = IdGenerator.createId();
     }
 
     public int[] getArray() {
-        return array;
+        return Arrays.copyOf(array, array.length);
     }
 
-    public void setArray(int[] array) {
-        this.array = array;
+    public void setArray(int[] currentArray) {
+        this.array = Arrays.copyOf(currentArray, currentArray.length);
     }
 
     public int getArrayId() {
