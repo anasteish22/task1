@@ -6,10 +6,10 @@ import by.anastasia.task1.repository.specification.Specification;
 import by.anastasia.task1.service.ArrayService;
 import by.anastasia.task1.service.impl.ArrayServiceImpl;
 
-public class negativeNumSpecification implements Specification {
+public class NegativeNumSpecification implements Specification {
     private int minNegativeCount;
 
-    public negativeNumSpecification(int minNegativeCount) {
+    public NegativeNumSpecification(int minNegativeCount) {
         this.minNegativeCount = minNegativeCount;
     }
 
