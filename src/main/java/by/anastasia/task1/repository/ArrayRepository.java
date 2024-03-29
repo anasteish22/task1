@@ -7,8 +7,6 @@ import by.anastasia.task1.repository.specification.Specification;
 import java.util.List;
 
 public interface ArrayRepository {
-    List<CustomArray> getCustomArrays();
-    void setCustomArrays(List<CustomArray> customArrays);
     boolean add(CustomArray array);
     boolean remove(CustomArray array);
     List<CustomArray> query (Specification specification) throws ArrayException;

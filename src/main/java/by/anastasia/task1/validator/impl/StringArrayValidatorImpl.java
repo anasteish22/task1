@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 
 public class StringArrayValidatorImpl implements StringArrayValidator {
     private static final String INT_NUMBER_REGEX = "[-+]?\\d{1,2}";
-    private static final String INT_ARRAY_REGEX = "([0-9]{1,2}\\s+)+(\\d{1,2})";
+    private static final String INT_ARRAY_REGEX = "(\\d{1,2}\\s+)+(\\d{1,2})";
 
     @Override
     public boolean stringNumberValidate(String strNumber) {

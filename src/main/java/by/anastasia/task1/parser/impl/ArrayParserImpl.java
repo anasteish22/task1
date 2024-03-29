@@ -12,8 +12,8 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ArrayParserImpl implements ArrayParser {
-    private static final String COMMA_SPACE_DELIMITER = ",\\s+";
     static final Logger LOGGER = LogManager.getLogger();
+    private static final String COMMA_SPACE_DELIMITER = ",\\s+";
 
     @Override
     public List<int[]> parseStringToInt(List<String> strings) {

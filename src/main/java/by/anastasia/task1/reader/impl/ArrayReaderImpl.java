@@ -22,31 +22,17 @@ public class ArrayReaderImpl implements ArrayReader {
 
     @Override
     public List<int[]> readArray(String filename) throws ArrayException {
-        if (filename == null) {
-            LOGGER.log(Level.ERROR, "File " + filename + " is null");
-            throw new ArrayException("File " + filename + " is null");
-        }
-
         File file = new File(filename);
 
-        if (!file.exists()) {
-            LOGGER.log(Level.ERROR, "File " + filename + " doesn't exist");
-            throw new ArrayException("File " + filename + " doesn't exist");
+        if (filename == null || (!file.exists()) || file.length() == 0) {
+            LOGGER.log(Level.ERROR, "File " + filename + " is empty or null");
+            throw new ArrayException("File " + filename + " is empty or null");
         }
 
-        if (file.length() == 0) {
-            LOGGER.log(Level.ERROR, "File " + filename + " is empty");
-            throw new ArrayException("File " + filename + " is empty");
-        }
-
-        LOGGER.log(Level.INFO, "File " + filename + " was found");
-
-        BufferedReader reader = null;
         ArrayParser parser = new ArrayParserImpl();
         List<int[]> parsedList;
 
-        try {
-            reader = new BufferedReader(new FileReader(filename));
+        try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
             List<String> strings = new ArrayList<>();
             String temp;
 
@@ -59,15 +45,6 @@ public class ArrayReaderImpl implements ArrayReader {
         } catch (IOException e) {
             LOGGER.log(Level.ERROR, "File " + filename + " doesn't have any valid array");
             throw new ArrayException("File " + filename + " doesn't have any valid array");
-        } finally {
-            if (reader != null) {
-                try {
-                    reader.close();
-                } catch (IOException e) {
-                    LOGGER.log(Level.ERROR, "Couldn't close the reader");
-                    throw new ArrayException("Couldn't close the reader");
-                }
-            }
         }
 
         LOGGER.log(Level.INFO, "File " + filename + " was successfully read");

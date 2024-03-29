@@ -1,5 +1,8 @@
 package main;
 
+import by.anastasia.task1.comparator.ArrayLengthComparator;
+import by.anastasia.task1.comparator.FirstElementComparator;
+import by.anastasia.task1.comparator.IdComparator;
 import by.anastasia.task1.entity.CustomArray;
 import by.anastasia.task1.exception.ArrayException;
 import by.anastasia.task1.util.IdGenerator;
@@ -10,7 +13,10 @@ import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class Main {
     static final Logger LOGGER = LogManager.getLogger();
@@ -19,8 +25,8 @@ public class Main {
     static ArraySortService sortService = new ArraySortServiceImpl();
 
     static final CustomArray basicArray1 = new CustomArray(new int[]{5, -2, 1, 16, 10, 3});
-    static final CustomArray basicArray2 = new CustomArray(new int[]{-6, -9, -4, -11, 1, 6});
-    static final CustomArray basicArray3 = new CustomArray(new int[]{8, 2, -7, 1, 13, 0});
+    static final CustomArray basicArray2 = new CustomArray(new int[]{-6, -9, -4, -11, 1, 6, 5, -3, 0});
+    static final CustomArray basicArray3 = new CustomArray(new int[]{8, 2, -7, 1, 13, 0, 7, 9});
     static final CustomArray emptyArray = new CustomArray(new int[]{});
 
     public static void main(String[] args) throws ArrayException {
@@ -54,13 +60,31 @@ public class Main {
         arrayService.calculateSum(basicArray3);
         sortService.sortInsertion(basicArray3);
 
-        LOGGER.log(Level.INFO, "Empty array: " + Arrays.toString(emptyArray.getArray()));
-        arrayService.calculateAverage(emptyArray);
-        arrayService.replaceElements(emptyArray);
-        arrayService.findMin(emptyArray);
-        arrayService.findMax(emptyArray);
-        arrayService.countPositive(emptyArray);
-        arrayService.countNegative(emptyArray);
-        arrayService.calculateSum(emptyArray);
+//        LOGGER.log(Level.INFO, "Empty array: " + Arrays.toString(emptyArray.getArray()));
+//        arrayService.calculateAverage(emptyArray);
+//        arrayService.replaceElements(emptyArray);
+//        arrayService.findMin(emptyArray);
+//        arrayService.findMax(emptyArray);
+//        arrayService.countPositive(emptyArray);
+//        arrayService.countNegative(emptyArray);
+//        arrayService.calculateSum(emptyArray);
+
+        List<CustomArray> customArrayList = new ArrayList<>();
+        customArrayList.add(basicArray1);
+        customArrayList.add(basicArray3);
+        customArrayList.add(basicArray2);
+
+        IdComparator idComparator = new IdComparator();
+        FirstElementComparator firstElementComparator = new FirstElementComparator();
+        ArrayLengthComparator arrayLengthComparator = new ArrayLengthComparator();
+
+        Collections.sort(customArrayList, idComparator);
+        System.out.println(customArrayList);
+
+        Collections.sort(customArrayList, firstElementComparator);
+        System.out.println(customArrayList);
+
+        Collections.sort(customArrayList, arrayLengthComparator);
+        System.out.println(customArrayList);
     }
 }

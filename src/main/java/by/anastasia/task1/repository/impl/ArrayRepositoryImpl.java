@@ -15,15 +15,6 @@ public class ArrayRepositoryImpl implements ArrayRepository {
         this.customArrays = new ArrayList<>();
     }
 
-    public List<CustomArray> getCustomArrays() {
-        return customArrays;
-    }
-
-    @Override
-    public void setCustomArrays(List<CustomArray> customArrays) {
-        this.customArrays = customArrays;
-    }
-
     @Override
     public boolean add(CustomArray array) {
         return customArrays.add(array);
