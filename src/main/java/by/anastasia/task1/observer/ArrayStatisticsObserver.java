@@ -4,5 +4,5 @@ import by.anastasia.task1.entity.CustomArray;
 import by.anastasia.task1.exception.ArrayException;
 
 public interface ArrayStatisticsObserver {
-    void changeArrayElement(CustomArray array) throws ArrayException;
+    void changeArrayElement(CustomArray array) ;
 }

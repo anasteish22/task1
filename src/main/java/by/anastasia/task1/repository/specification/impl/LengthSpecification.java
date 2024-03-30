@@ -12,7 +12,7 @@ public class LengthSpecification implements Specification {
     }
 
     @Override
-    public boolean specify(CustomArray array) throws ArrayException {
+    public boolean specify(CustomArray array) {
         int currentLength = array.length();
         return currentLength > minLength;
     }

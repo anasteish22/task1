@@ -4,5 +4,5 @@ import by.anastasia.task1.entity.CustomArray;
 import by.anastasia.task1.exception.ArrayException;
 
 public interface Specification {
-    boolean specify(CustomArray array) throws ArrayException;
+    boolean specify(CustomArray array);
 }

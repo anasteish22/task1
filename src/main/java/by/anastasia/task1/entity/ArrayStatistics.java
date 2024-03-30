@@ -1,6 +1,5 @@
 package by.anastasia.task1.entity;
 
-import by.anastasia.task1.exception.ArrayException;
 import by.anastasia.task1.service.ArrayService;
 import by.anastasia.task1.service.impl.ArrayServiceImpl;
 
@@ -11,7 +10,7 @@ public class ArrayStatistics {
     private int min;
     private int max;
 
-    public ArrayStatistics(CustomArray array) throws ArrayException {
+    public ArrayStatistics(CustomArray array) {
         this.sum = service.calculateSum(array);
         this.average = service.calculateAverage(array);
         this.min = service.findMin(array);

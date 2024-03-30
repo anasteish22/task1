@@ -13,129 +13,75 @@ public class ArrayServiceImpl implements ArrayService {
     static final Logger LOGGER = LogManager.getLogger();
 
     @Override
-    public int calculateSum(CustomArray array) throws ArrayException {
-        if (array.length() < 1) {
-            LOGGER.log(Level.ERROR, "The array is empty");
-            throw new ArrayException("The array is empty");
-        }
-
-        int sum = 0;
-
-        for (int i = 0; i < array.length(); i++) {
-            sum += array.getElement(i);
-        }
-
+    public int calculateSum(CustomArray array) {
+        int sum = Arrays.stream(array.getArray())
+                .sum();
         LOGGER.log(Level.INFO, "The sum is " + sum);
         return sum;
     }
 
     @Override
-    public double calculateAverage(CustomArray array) throws ArrayException {
-        if (array.length() < 1) {
-            LOGGER.log(Level.ERROR, "The array is empty");
-            throw new ArrayException("The array is empty");
-        }
-
-        int sum = calculateSum(array);
-        double average;
-
-        average = (double) sum / array.length();
+    public double calculateAverage(CustomArray array) {
+        double average = Arrays.stream(array.getArray())
+                .average()
+                .getAsDouble();
         LOGGER.log(Level.INFO, "The average is " + average);
         return average;
     }
 
     @Override
-    public int findMin(CustomArray array) throws ArrayException {
-        if (array.length() < 1) {
-            LOGGER.log(Level.ERROR, "The array is empty");
-            throw new ArrayException("The array is empty");
-        }
-
-        int min = array.getElement(0);
-
-        for (int i = 1; i < array.length(); i++) {
-            if (array.getElement(i) < min) {
-                min = array.getElement(i);
-            }
-        }
-
+    public int findMin(CustomArray array) {
+        int min = Arrays.stream(array.getArray())
+                .min()
+                .getAsInt();
         LOGGER.log(Level.INFO, "The min is " + min);
         return min;
     }
 
     @Override
-    public int findMax(CustomArray array) throws ArrayException {
-        if (array.length() < 1) {
-            throw new ArrayException("The array is empty");
-        }
-
-        int max = array.getElement(0);
-
-        for (int i = 1; i < array.length(); i++) {
-            if (array.getElement(i) > max) {
-                max = array.getElement(i);
-            }
-        }
-
+    public int findMax(CustomArray array) {
+        int max = Arrays.stream(array.getArray())
+                .max()
+                .getAsInt();
         LOGGER.log(Level.INFO, "The max is " + max);
         return max;
     }
 
     @Override
-    public int countPositive(CustomArray array) throws ArrayException {
-        if (array.length() < 1) {
-            LOGGER.log(Level.ERROR, "The array is empty");
-            throw new ArrayException("The array is empty");
-        }
-
-        int pos = 0;
-
-        for (int i = 0; i < array.length(); i++) {
-            if (array.getElement(i) > 0) {
-                pos++;
-            }
-        }
-
+    public int countPositive(CustomArray array) {
+        int pos = (int) Arrays.stream(array.getArray())
+                .filter(n -> n > 0)
+                .count();
         LOGGER.log(Level.INFO, "The num of positives is " + pos);
         return pos;
     }
 
     @Override
-    public int countNegative(CustomArray array) throws ArrayException {
-        if (array.length() < 1) {
-            throw new ArrayException("The array is empty");
-        }
-
-        int neg = 0;
-
-        for (int i = 0; i < array.length(); i++) {
-            if (array.getElement(i) < 0) {
-                neg++;
-            }
-        }
-
+    public int countNegative(CustomArray array) {
+        int neg = (int) Arrays.stream(array.getArray())
+                .filter(n -> n < 0)
+                .count();
         LOGGER.log(Level.INFO, "The num of negatives is " + neg);
         return neg;
     }
 
     @Override
-    public int[] replaceElements(CustomArray array) throws ArrayException {
-        if (array.length() < 1) {
-            LOGGER.log(Level.ERROR, "The array is empty");
-            throw new ArrayException("The array is empty");
-        }
+    public int[] addToEvens(CustomArray array, int num) {
+        int[] newArray = Arrays.stream(array.getArray())
+                .map(n -> n % 2 == 0 ? n + num : n)
+                .toArray();
+        LOGGER.log(Level.INFO, "Evens are plussed with " + num
+                + "\nThe changed array is " + Arrays.toString(newArray));
+        return newArray;
+    }
 
-        int length = array.length();
-        int[] newArray = new int[length];
-
-        for (int i = 0; i < array.length(); i++) {
-            if (array.getElement(i) % 2 == 0) {
-                newArray[i] = 2;
-            } else {
-                newArray[i] = array.getElement(i) + 3;
-            }
-        }
-        LOGGER.log(Level.INFO, "The changed array is " + Arrays.toString(newArray));
+    @Override
+    public int[] addToOdds(CustomArray array, int num) {
+        int[] newArray = Arrays.stream(array.getArray())
+                .map(n -> n % 2 == 0 ? n : n + num)
+                .toArray();
+        LOGGER.log(Level.INFO, "Odds are plussed with " + num
+                + "\nThe changed array is " + Arrays.toString(newArray));
         return newArray;
     }
 }

@@ -14,7 +14,7 @@ public class NegativeNumSpecification implements Specification {
     }
 
     @Override
-    public boolean specify(CustomArray array) throws ArrayException {
+    public boolean specify(CustomArray array) {
         ArrayService service = new ArrayServiceImpl();
         int currentNeg = service.countNegative(array);
         return currentNeg > 1;

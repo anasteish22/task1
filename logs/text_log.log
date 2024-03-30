@@ -1,210 +1,238 @@
-23:40:15.297 [main] INFO  Main - Basic array №1: [5, -2, 1, 16, 10, 3]
-23:40:15.299 [main] INFO  ArrayServiceImpl - The sum is 33
-23:40:15.300 [main] INFO  ArrayServiceImpl - The average is 5.5
-23:40:15.300 [main] INFO  ArrayServiceImpl - The changed array is [8, 2, 4, 2, 2, 6]
-23:40:15.300 [main] INFO  ArrayServiceImpl - The min is -2
-23:40:15.300 [main] INFO  ArrayServiceImpl - The max is 16
-23:40:15.300 [main] INFO  ArrayServiceImpl - The num of positives is 5
-23:40:15.301 [main] INFO  ArrayServiceImpl - The num of negatives is 1
-23:40:15.301 [main] INFO  ArrayServiceImpl - The sum is 33
-23:40:15.301 [main] INFO  ArraySortServiceImpl - The original array: [5, -2, 1, 16, 10, 3]
-23:40:15.301 [main] INFO  ArraySortServiceImpl - The sorted array: [-2, 1, 3, 5, 10, 16] (bubble sort)
-23:40:15.301 [main] INFO  Main - Basic array №2: [-6, -9, -4, -11, 1, 6]
-23:40:15.301 [main] INFO  ArrayServiceImpl - The sum is -23
-23:40:15.302 [main] INFO  ArrayServiceImpl - The average is -3.8333333333333335
-23:40:15.302 [main] INFO  ArrayServiceImpl - The changed array is [2, -6, 2, -8, 4, 2]
-23:40:15.302 [main] INFO  ArrayServiceImpl - The min is -11
-23:40:15.302 [main] INFO  ArrayServiceImpl - The max is 6
-23:40:15.302 [main] INFO  ArrayServiceImpl - The num of positives is 2
-23:40:15.302 [main] INFO  ArrayServiceImpl - The num of negatives is 4
-23:40:15.302 [main] INFO  ArrayServiceImpl - The sum is -23
-23:40:15.302 [main] INFO  ArraySortServiceImpl - The original array: [-6, -9, -4, -11, 1, 6]
-23:40:15.303 [main] INFO  ArraySortServiceImpl - The sorted array: [-11, -9, -6, -4, 1, 6] (selection sort)
-23:40:15.303 [main] INFO  Main - Basic array №3: [8, 2, -7, 1, 13, 0]
-23:40:15.303 [main] INFO  ArrayServiceImpl - The sum is 17
-23:40:15.303 [main] INFO  ArrayServiceImpl - The average is 2.8333333333333335
-23:40:15.303 [main] INFO  ArrayServiceImpl - The changed array is [2, 2, -4, 4, 16, 2]
-23:40:15.303 [main] INFO  ArrayServiceImpl - The min is -7
-23:40:15.303 [main] INFO  ArrayServiceImpl - The max is 13
-23:40:15.303 [main] INFO  ArrayServiceImpl - The num of positives is 4
-23:40:15.303 [main] INFO  ArrayServiceImpl - The num of negatives is 1
-23:40:15.304 [main] INFO  ArrayServiceImpl - The sum is 17
-23:40:15.304 [main] INFO  ArraySortServiceImpl - The original array: [8, 2, -7, 1, 13, 0]
-23:40:15.304 [main] INFO  ArraySortServiceImpl - The sorted array: [-7, 0, 1, 2, 8, 13] (insertion sort)
-23:40:15.304 [main] INFO  Main - Empty array: []
-23:40:15.304 [main] ERROR ArrayServiceImpl - The array is empty
-23:40:35.662 [main] INFO  ArrayReaderImpl - File data//arrays.txt was found
-23:40:35.664 [main] ERROR ArrayParserImpl - The array is empty
-23:40:35.665 [main] ERROR ArrayParserImpl - The array is empty
-23:40:35.665 [main] ERROR ArrayParserImpl - The array is empty
-23:40:35.665 [main] ERROR ArrayParserImpl - The array is empty
-23:40:35.666 [main] ERROR ArrayParserImpl - The array is empty
-23:40:35.666 [main] ERROR ArrayParserImpl - The array is empty
-23:40:35.667 [main] INFO  ArrayReaderImpl - File data//arrays.txt was successfully read
-18:48:33.995 [main] INFO  Main - Basic array №1: [5, -2, 1, 16, 10, 3]
-18:48:33.997 [main] INFO  ArrayServiceImpl - The sum is 33
-18:48:33.998 [main] INFO  ArrayServiceImpl - The average is 5.5
-18:48:33.998 [main] INFO  ArrayServiceImpl - The changed array is [8, 2, 4, 2, 2, 6]
-18:48:33.998 [main] INFO  ArrayServiceImpl - The min is -2
-18:48:33.998 [main] INFO  ArrayServiceImpl - The max is 16
-18:48:33.999 [main] INFO  ArrayServiceImpl - The num of positives is 5
-18:48:33.999 [main] INFO  ArrayServiceImpl - The num of negatives is 1
-18:48:33.999 [main] INFO  ArrayServiceImpl - The sum is 33
-18:48:33.999 [main] INFO  ArraySortServiceImpl - The original array: [5, -2, 1, 16, 10, 3]
-18:48:33.999 [main] INFO  ArraySortServiceImpl - The sorted array: [-2, 1, 3, 5, 10, 16] (bubble sort)
-18:48:33.999 [main] INFO  Main - Basic array №2: [-6, -9, -4, -11, 1, 6]
-18:48:34.000 [main] INFO  ArrayServiceImpl - The sum is -23
-18:48:34.000 [main] INFO  ArrayServiceImpl - The average is -3.8333333333333335
-18:48:34.000 [main] INFO  ArrayServiceImpl - The changed array is [2, -6, 2, -8, 4, 2]
-18:48:34.000 [main] INFO  ArrayServiceImpl - The min is -11
-18:48:34.000 [main] INFO  ArrayServiceImpl - The max is 6
-18:48:34.000 [main] INFO  ArrayServiceImpl - The num of positives is 2
-18:48:34.000 [main] INFO  ArrayServiceImpl - The num of negatives is 4
-18:48:34.000 [main] INFO  ArrayServiceImpl - The sum is -23
-18:48:34.001 [main] INFO  ArraySortServiceImpl - The original array: [-6, -9, -4, -11, 1, 6]
-18:48:34.001 [main] INFO  ArraySortServiceImpl - The sorted array: [-11, -9, -6, -4, 1, 6] (selection sort)
-18:48:34.001 [main] INFO  Main - Basic array №3: [8, 2, -7, 1, 13, 0]
-18:48:34.001 [main] INFO  ArrayServiceImpl - The sum is 17
-18:48:34.001 [main] INFO  ArrayServiceImpl - The average is 2.8333333333333335
-18:48:34.001 [main] INFO  ArrayServiceImpl - The changed array is [2, 2, -4, 4, 16, 2]
-18:48:34.001 [main] INFO  ArrayServiceImpl - The min is -7
-18:48:34.002 [main] INFO  ArrayServiceImpl - The max is 13
-18:48:34.002 [main] INFO  ArrayServiceImpl - The num of positives is 4
-18:48:34.002 [main] INFO  ArrayServiceImpl - The num of negatives is 1
-18:48:34.002 [main] INFO  ArrayServiceImpl - The sum is 17
-18:48:34.002 [main] INFO  ArraySortServiceImpl - The original array: [8, 2, -7, 1, 13, 0]
-18:48:34.002 [main] INFO  ArraySortServiceImpl - The sorted array: [-7, 0, 1, 2, 8, 13] (insertion sort)
-18:48:34.002 [main] INFO  Main - Empty array: []
-18:48:34.002 [main] ERROR ArrayServiceImpl - The array is empty
-18:49:07.324 [main] INFO  Main - Basic array №1: [5, -2, 1, 16, 10, 3]
-18:49:07.327 [main] INFO  ArrayServiceImpl - The sum is 33
-18:49:07.329 [main] INFO  ArrayServiceImpl - The average is 5.5
-18:49:07.329 [main] INFO  ArrayServiceImpl - The changed array is [8, 2, 4, 2, 2, 6]
-18:49:07.329 [main] INFO  ArrayServiceImpl - The min is -2
-18:49:07.330 [main] INFO  ArrayServiceImpl - The max is 16
-18:49:07.330 [main] INFO  ArrayServiceImpl - The num of positives is 5
-18:49:07.330 [main] INFO  ArrayServiceImpl - The num of negatives is 1
-18:49:07.330 [main] INFO  ArrayServiceImpl - The sum is 33
-18:49:07.331 [main] INFO  ArraySortServiceImpl - The original array: [5, -2, 1, 16, 10, 3]
-18:49:07.331 [main] INFO  ArraySortServiceImpl - The sorted array: [-2, 1, 3, 5, 10, 16] (bubble sort)
-18:49:07.331 [main] INFO  Main - Basic array №2: [-6, -9, -4, -11, 1, 6]
-18:49:07.331 [main] INFO  ArrayServiceImpl - The sum is -23
-18:49:07.331 [main] INFO  ArrayServiceImpl - The average is -3.8333333333333335
-18:49:07.331 [main] INFO  ArrayServiceImpl - The changed array is [2, -6, 2, -8, 4, 2]
-18:49:07.332 [main] INFO  ArrayServiceImpl - The min is -11
-18:49:07.332 [main] INFO  ArrayServiceImpl - The max is 6
-18:49:07.332 [main] INFO  ArrayServiceImpl - The num of positives is 2
-18:49:07.332 [main] INFO  ArrayServiceImpl - The num of negatives is 4
-18:49:07.332 [main] INFO  ArrayServiceImpl - The sum is -23
-18:49:07.332 [main] INFO  ArraySortServiceImpl - The original array: [-6, -9, -4, -11, 1, 6]
-18:49:07.333 [main] INFO  ArraySortServiceImpl - The sorted array: [-11, -9, -6, -4, 1, 6] (selection sort)
-18:49:07.333 [main] INFO  Main - Basic array №3: [8, 2, -7, 1, 13, 0]
-18:49:07.333 [main] INFO  ArrayServiceImpl - The sum is 17
-18:49:07.333 [main] INFO  ArrayServiceImpl - The average is 2.8333333333333335
-18:49:07.333 [main] INFO  ArrayServiceImpl - The changed array is [2, 2, -4, 4, 16, 2]
-18:49:07.333 [main] INFO  ArrayServiceImpl - The min is -7
-18:49:07.333 [main] INFO  ArrayServiceImpl - The max is 13
-18:49:07.333 [main] INFO  ArrayServiceImpl - The num of positives is 4
-18:49:07.334 [main] INFO  ArrayServiceImpl - The num of negatives is 1
-18:49:07.334 [main] INFO  ArrayServiceImpl - The sum is 17
-18:49:07.334 [main] INFO  ArraySortServiceImpl - The original array: [8, 2, -7, 1, 13, 0]
-18:49:07.334 [main] INFO  ArraySortServiceImpl - The sorted array: [-7, 0, 1, 2, 8, 13] (insertion sort)
-18:49:54.039 [main] INFO  Main - Basic array №1: [5, -2, 1, 16, 10, 3]
-18:49:54.041 [main] INFO  ArrayServiceImpl - The sum is 33
-18:49:54.042 [main] INFO  ArrayServiceImpl - The average is 5.5
-18:49:54.042 [main] INFO  ArrayServiceImpl - The changed array is [8, 2, 4, 2, 2, 6]
-18:49:54.042 [main] INFO  ArrayServiceImpl - The min is -2
-18:49:54.043 [main] INFO  ArrayServiceImpl - The max is 16
-18:49:54.043 [main] INFO  ArrayServiceImpl - The num of positives is 5
-18:49:54.043 [main] INFO  ArrayServiceImpl - The num of negatives is 1
-18:49:54.043 [main] INFO  ArrayServiceImpl - The sum is 33
-18:49:54.043 [main] INFO  ArraySortServiceImpl - The original array: [5, -2, 1, 16, 10, 3]
-18:49:54.043 [main] INFO  ArraySortServiceImpl - The sorted array: [-2, 1, 3, 5, 10, 16] (bubble sort)
-18:49:54.044 [main] INFO  Main - Basic array №2: [-6, -9, -4, -11, 1, 6]
-18:49:54.044 [main] INFO  ArrayServiceImpl - The sum is -23
-18:49:54.044 [main] INFO  ArrayServiceImpl - The average is -3.8333333333333335
-18:49:54.044 [main] INFO  ArrayServiceImpl - The changed array is [2, -6, 2, -8, 4, 2]
-18:49:54.044 [main] INFO  ArrayServiceImpl - The min is -11
-18:49:54.044 [main] INFO  ArrayServiceImpl - The max is 6
-18:49:54.044 [main] INFO  ArrayServiceImpl - The num of positives is 2
-18:49:54.044 [main] INFO  ArrayServiceImpl - The num of negatives is 4
-18:49:54.044 [main] INFO  ArrayServiceImpl - The sum is -23
-18:49:54.044 [main] INFO  ArraySortServiceImpl - The original array: [-6, -9, -4, -11, 1, 6]
-18:49:54.045 [main] INFO  ArraySortServiceImpl - The sorted array: [-11, -9, -6, -4, 1, 6] (selection sort)
-18:49:54.045 [main] INFO  Main - Basic array №3: [8, 2, -7, 1, 13, 0]
-18:49:54.045 [main] INFO  ArrayServiceImpl - The sum is 17
-18:49:54.045 [main] INFO  ArrayServiceImpl - The average is 2.8333333333333335
-18:49:54.045 [main] INFO  ArrayServiceImpl - The changed array is [2, 2, -4, 4, 16, 2]
-18:49:54.045 [main] INFO  ArrayServiceImpl - The min is -7
-18:49:54.045 [main] INFO  ArrayServiceImpl - The max is 13
-18:49:54.045 [main] INFO  ArrayServiceImpl - The num of positives is 4
-18:49:54.045 [main] INFO  ArrayServiceImpl - The num of negatives is 1
-18:49:54.046 [main] INFO  ArrayServiceImpl - The sum is 17
-18:49:54.046 [main] INFO  ArraySortServiceImpl - The original array: [8, 2, -7, 1, 13, 0]
-18:49:54.046 [main] INFO  ArraySortServiceImpl - The sorted array: [-7, 0, 1, 2, 8, 13] (insertion sort)
-18:59:30.419 [main] INFO  Main - Basic array №1: [5, -2, 1, 16, 10, 3]
-18:59:30.422 [main] INFO  ArrayServiceImpl - The sum is 33
-18:59:30.423 [main] INFO  ArrayServiceImpl - The average is 5.5
-18:59:30.428 [main] INFO  ArrayServiceImpl - The changed array is [8, 2, 4, 2, 2, 6]
-18:59:30.429 [main] INFO  ArrayServiceImpl - The min is -2
-18:59:30.429 [main] INFO  ArrayServiceImpl - The max is 16
-18:59:30.429 [main] INFO  ArrayServiceImpl - The num of positives is 5
-18:59:30.429 [main] INFO  ArrayServiceImpl - The num of negatives is 1
-18:59:30.429 [main] INFO  ArrayServiceImpl - The sum is 33
-18:59:30.430 [main] INFO  ArraySortServiceImpl - The original array: [5, -2, 1, 16, 10, 3]
-18:59:30.430 [main] INFO  ArraySortServiceImpl - The sorted array: [-2, 1, 3, 5, 10, 16] (bubble sort)
-18:59:30.430 [main] INFO  Main - Basic array №2: [-6, -9, -4, -11, 1, 6, 5, -3, 0]
-18:59:30.430 [main] INFO  ArrayServiceImpl - The sum is -21
-18:59:30.430 [main] INFO  ArrayServiceImpl - The average is -2.3333333333333335
-18:59:30.430 [main] INFO  ArrayServiceImpl - The changed array is [2, -6, 2, -8, 4, 2, 8, 0, 2]
-18:59:30.431 [main] INFO  ArrayServiceImpl - The min is -11
-18:59:30.431 [main] INFO  ArrayServiceImpl - The max is 6
-18:59:30.431 [main] INFO  ArrayServiceImpl - The num of positives is 3
-18:59:30.431 [main] INFO  ArrayServiceImpl - The num of negatives is 5
-18:59:30.431 [main] INFO  ArrayServiceImpl - The sum is -21
-18:59:30.431 [main] INFO  ArraySortServiceImpl - The original array: [-6, -9, -4, -11, 1, 6, 5, -3, 0]
-18:59:30.432 [main] INFO  ArraySortServiceImpl - The sorted array: [-11, -9, -6, -4, -3, 0, 1, 5, 6] (selection sort)
-18:59:30.432 [main] INFO  Main - Basic array №3: [8, 2, -7, 1, 13, 0, 7, 9]
-18:59:30.432 [main] INFO  ArrayServiceImpl - The sum is 33
-18:59:30.432 [main] INFO  ArrayServiceImpl - The average is 4.125
-18:59:30.432 [main] INFO  ArrayServiceImpl - The changed array is [2, 2, -4, 4, 16, 2, 10, 12]
-18:59:30.432 [main] INFO  ArrayServiceImpl - The min is -7
-18:59:30.432 [main] INFO  ArrayServiceImpl - The max is 13
-18:59:30.433 [main] INFO  ArrayServiceImpl - The num of positives is 6
-18:59:30.433 [main] INFO  ArrayServiceImpl - The num of negatives is 1
-18:59:30.433 [main] INFO  ArrayServiceImpl - The sum is 33
-18:59:30.433 [main] INFO  ArraySortServiceImpl - The original array: [8, 2, -7, 1, 13, 0, 7, 9]
-18:59:30.433 [main] INFO  ArraySortServiceImpl - The sorted array: [-7, 0, 1, 2, 7, 8, 9, 13] (insertion sort)
-19:00:46.241 [main] INFO  Main - Basic array №1: [5, -2, 1, 16, 10, 3]
-19:00:46.244 [main] INFO  ArrayServiceImpl - The sum is 33
-19:00:46.245 [main] INFO  ArrayServiceImpl - The average is 5.5
-19:00:46.246 [main] INFO  ArrayServiceImpl - The changed array is [8, 2, 4, 2, 2, 6]
-19:00:46.246 [main] INFO  ArrayServiceImpl - The min is -2
-19:00:46.246 [main] INFO  ArrayServiceImpl - The max is 16
-19:00:46.246 [main] INFO  ArrayServiceImpl - The num of positives is 5
-19:00:46.247 [main] INFO  ArrayServiceImpl - The num of negatives is 1
-19:00:46.247 [main] INFO  ArrayServiceImpl - The sum is 33
-19:00:46.247 [main] INFO  ArraySortServiceImpl - The original array: [5, -2, 1, 16, 10, 3]
-19:00:46.247 [main] INFO  ArraySortServiceImpl - The sorted array: [-2, 1, 3, 5, 10, 16] (bubble sort)
-19:00:46.248 [main] INFO  Main - Basic array №2: [-6, -9, -4, -11, 1, 6, 5, -3, 0]
-19:00:46.248 [main] INFO  ArrayServiceImpl - The sum is -21
-19:00:46.248 [main] INFO  ArrayServiceImpl - The average is -2.3333333333333335
-19:00:46.248 [main] INFO  ArrayServiceImpl - The changed array is [2, -6, 2, -8, 4, 2, 8, 0, 2]
-19:00:46.248 [main] INFO  ArrayServiceImpl - The min is -11
-19:00:46.248 [main] INFO  ArrayServiceImpl - The max is 6
-19:00:46.248 [main] INFO  ArrayServiceImpl - The num of positives is 3
-19:00:46.249 [main] INFO  ArrayServiceImpl - The num of negatives is 5
-19:00:46.249 [main] INFO  ArrayServiceImpl - The sum is -21
-19:00:46.252 [main] INFO  ArraySortServiceImpl - The original array: [-6, -9, -4, -11, 1, 6, 5, -3, 0]
-19:00:46.253 [main] INFO  ArraySortServiceImpl - The sorted array: [-11, -9, -6, -4, -3, 0, 1, 5, 6] (selection sort)
-19:00:46.253 [main] INFO  Main - Basic array №3: [8, 2, -7, 1, 13, 0, 7, 9]
-19:00:46.253 [main] INFO  ArrayServiceImpl - The sum is 33
-19:00:46.253 [main] INFO  ArrayServiceImpl - The average is 4.125
-19:00:46.253 [main] INFO  ArrayServiceImpl - The changed array is [2, 2, -4, 4, 16, 2, 10, 12]
-19:00:46.253 [main] INFO  ArrayServiceImpl - The min is -7
-19:00:46.253 [main] INFO  ArrayServiceImpl - The max is 13
-19:00:46.253 [main] INFO  ArrayServiceImpl - The num of positives is 6
-19:00:46.254 [main] INFO  ArrayServiceImpl - The num of negatives is 1
-19:00:46.254 [main] INFO  ArrayServiceImpl - The sum is 33
-19:00:46.254 [main] INFO  ArraySortServiceImpl - The original array: [8, 2, -7, 1, 13, 0, 7, 9]
-19:00:46.254 [main] INFO  ArraySortServiceImpl - The sorted array: [-7, 0, 1, 2, 7, 8, 9, 13] (insertion sort)
+19:49:51.207 [main] INFO  Main - Basic array №3: [8, 2, -7, 1, 13, 0, 7, 9]
+19:49:51.210 [main] INFO  ArrayServiceImpl - The average is 4.125
+19:49:51.210 [main] INFO  ArrayServiceImpl - The changed array is [2, 2, -4, 4, 16, 2, 10, 12]
+19:49:51.210 [main] INFO  ArrayServiceImpl - The min is -7
+19:49:51.210 [main] INFO  ArrayServiceImpl - The max is 13
+19:49:51.210 [main] INFO  ArrayServiceImpl - The num of positives is 6
+19:49:51.210 [main] INFO  ArrayServiceImpl - The num of negatives is 1
+19:49:51.211 [main] INFO  ArrayServiceImpl - The sum is 33
+19:49:51.211 [main] INFO  ArraySortServiceImpl - The original array: [8, 2, -7, 1, 13, 0, 7, 9]
+19:49:51.211 [main] INFO  ArrayServiceImpl - The sum is 33
+19:49:51.211 [main] INFO  ArrayServiceImpl - The average is 4.125
+19:49:51.211 [main] INFO  ArrayServiceImpl - The min is -7
+19:49:51.211 [main] INFO  ArrayServiceImpl - The max is 13
+19:49:51.211 [main] INFO  ArraySortServiceImpl - The sorted array: [-7, 0, 1, 2, 7, 8, 9, 13] (insertion sort)
+19:50:08.924 [main] INFO  Main - Basic array №1: [5, -2, 1, 16, 10, 3]
+19:50:08.928 [main] INFO  ArrayServiceImpl - The average is 5.5
+19:50:08.929 [main] INFO  ArrayServiceImpl - The changed array is [2, 2, 2]
+19:50:08.930 [main] INFO  ArrayServiceImpl - The min is -2
+19:50:08.930 [main] INFO  ArrayServiceImpl - The max is 16
+19:50:08.931 [main] INFO  ArrayServiceImpl - The num of positives is 5
+19:50:08.931 [main] INFO  ArrayServiceImpl - The num of negatives is 1
+19:50:08.932 [main] INFO  ArrayServiceImpl - The sum is 33
+19:50:08.932 [main] INFO  ArraySortServiceImpl - The original array: [5, -2, 1, 16, 10, 3]
+19:50:08.932 [main] INFO  ArrayServiceImpl - The sum is 33
+19:50:08.933 [main] INFO  ArrayServiceImpl - The average is 5.5
+19:50:08.933 [main] INFO  ArrayServiceImpl - The min is -2
+19:50:08.933 [main] INFO  ArrayServiceImpl - The max is 16
+19:50:08.933 [main] INFO  ArraySortServiceImpl - The sorted array: [-2, 1, 3, 5, 10, 16] (bubble sort)
+19:50:08.933 [main] INFO  Main - Basic array №2: [-6, -9, -4, -11, 1, 6, 5, -3, 0]
+19:50:08.933 [main] INFO  ArrayServiceImpl - The average is -2.3333333333333335
+19:50:08.934 [main] INFO  ArrayServiceImpl - The changed array is [2, 2, 2, 2]
+19:50:08.934 [main] INFO  ArrayServiceImpl - The min is -11
+19:50:08.934 [main] INFO  ArrayServiceImpl - The max is 6
+19:50:08.934 [main] INFO  ArrayServiceImpl - The num of positives is 3
+19:50:08.934 [main] INFO  ArrayServiceImpl - The num of negatives is 5
+19:50:08.934 [main] INFO  ArrayServiceImpl - The sum is -21
+19:50:08.934 [main] INFO  ArraySortServiceImpl - The original array: [-6, -9, -4, -11, 1, 6, 5, -3, 0]
+19:50:08.934 [main] INFO  ArrayServiceImpl - The sum is -21
+19:50:08.934 [main] INFO  ArrayServiceImpl - The average is -2.3333333333333335
+19:50:08.935 [main] INFO  ArrayServiceImpl - The min is -11
+19:50:08.935 [main] INFO  ArrayServiceImpl - The max is 6
+19:50:08.935 [main] INFO  ArraySortServiceImpl - The sorted array: [-11, -9, -6, -4, -3, 0, 1, 5, 6] (selection sort)
+19:50:08.935 [main] INFO  Main - Basic array №3: [8, 2, -7, 1, 13, 0, 7, 9]
+19:50:08.935 [main] INFO  ArrayServiceImpl - The average is 4.125
+19:50:08.935 [main] INFO  ArrayServiceImpl - The changed array is [2, 2, 2]
+19:50:08.935 [main] INFO  ArrayServiceImpl - The min is -7
+19:50:08.935 [main] INFO  ArrayServiceImpl - The max is 13
+19:50:08.936 [main] INFO  ArrayServiceImpl - The num of positives is 6
+19:50:08.936 [main] INFO  ArrayServiceImpl - The num of negatives is 1
+19:50:08.936 [main] INFO  ArrayServiceImpl - The sum is 33
+19:50:08.936 [main] INFO  ArraySortServiceImpl - The original array: [8, 2, -7, 1, 13, 0, 7, 9]
+19:50:08.936 [main] INFO  ArrayServiceImpl - The sum is 33
+19:50:08.936 [main] INFO  ArrayServiceImpl - The average is 4.125
+19:50:08.936 [main] INFO  ArrayServiceImpl - The min is -7
+19:50:08.936 [main] INFO  ArrayServiceImpl - The max is 13
+19:50:08.936 [main] INFO  ArraySortServiceImpl - The sorted array: [-7, 0, 1, 2, 7, 8, 9, 13] (insertion sort)
+20:13:30.866 [main] INFO  Main - Basic array №1: [5, -2, 1, 16, 10, 3]
+20:13:30.870 [main] INFO  ArrayServiceImpl - The average is 5.5
+20:13:30.873 [main] INFO  ArrayServiceImpl - Positives are plussed with 3
+The changed array is [5, 1, 1, 19, 13, 3]
+20:13:30.874 [main] INFO  ArrayServiceImpl - The min is -2
+20:13:30.874 [main] INFO  ArrayServiceImpl - The max is 16
+20:13:30.875 [main] INFO  ArrayServiceImpl - The num of positives is 5
+20:13:30.875 [main] INFO  ArrayServiceImpl - The num of negatives is 1
+20:13:30.875 [main] INFO  ArrayServiceImpl - The sum is 33
+20:13:30.876 [main] INFO  ArraySortServiceImpl - The original array: [5, -2, 1, 16, 10, 3]
+20:13:30.876 [main] INFO  ArrayServiceImpl - The sum is 33
+20:13:30.876 [main] INFO  ArrayServiceImpl - The average is 5.5
+20:13:30.876 [main] INFO  ArrayServiceImpl - The min is -2
+20:13:30.876 [main] INFO  ArrayServiceImpl - The max is 16
+20:13:30.877 [main] INFO  ArraySortServiceImpl - The sorted array: [-2, 1, 3, 5, 10, 16] (bubble sort)
+20:13:30.877 [main] INFO  Main - Basic array №2: [-6, -9, -4, -11, 1, 6, 5, -3, 0]
+20:13:30.877 [main] INFO  ArrayServiceImpl - The average is -2.3333333333333335
+20:13:30.877 [main] INFO  ArrayServiceImpl - Positives are plussed with 5
+The changed array is [-1, -9, 1, -11, 1, 11, 5, -3, 5]
+20:13:30.877 [main] INFO  ArrayServiceImpl - The min is -11
+20:13:30.877 [main] INFO  ArrayServiceImpl - The max is 6
+20:13:30.878 [main] INFO  ArrayServiceImpl - The num of positives is 3
+20:13:30.878 [main] INFO  ArrayServiceImpl - The num of negatives is 5
+20:13:30.878 [main] INFO  ArrayServiceImpl - The sum is -21
+20:13:30.878 [main] INFO  ArraySortServiceImpl - The original array: [-6, -9, -4, -11, 1, 6, 5, -3, 0]
+20:13:30.878 [main] INFO  ArrayServiceImpl - The sum is -21
+20:13:30.878 [main] INFO  ArrayServiceImpl - The average is -2.3333333333333335
+20:13:30.878 [main] INFO  ArrayServiceImpl - The min is -11
+20:13:30.878 [main] INFO  ArrayServiceImpl - The max is 6
+20:13:30.879 [main] INFO  ArraySortServiceImpl - The sorted array: [-11, -9, -6, -4, -3, 0, 1, 5, 6] (selection sort)
+20:13:30.879 [main] INFO  Main - Basic array №3: [8, 2, -7, 1, 13, 0, 7, 9]
+20:13:30.879 [main] INFO  ArrayServiceImpl - The average is 4.125
+20:13:30.879 [main] INFO  ArrayServiceImpl - Positives are plussed with 2
+The changed array is [10, 4, -7, 1, 13, 2, 7, 9]
+20:13:30.879 [main] INFO  ArrayServiceImpl - The min is -7
+20:13:30.879 [main] INFO  ArrayServiceImpl - The max is 13
+20:13:30.879 [main] INFO  ArrayServiceImpl - The num of positives is 6
+20:13:30.879 [main] INFO  ArrayServiceImpl - The num of negatives is 1
+20:13:30.879 [main] INFO  ArrayServiceImpl - The sum is 33
+20:13:30.880 [main] INFO  ArraySortServiceImpl - The original array: [8, 2, -7, 1, 13, 0, 7, 9]
+20:13:30.880 [main] INFO  ArrayServiceImpl - The sum is 33
+20:13:30.880 [main] INFO  ArrayServiceImpl - The average is 4.125
+20:13:30.880 [main] INFO  ArrayServiceImpl - The min is -7
+20:13:30.880 [main] INFO  ArrayServiceImpl - The max is 13
+20:13:30.880 [main] INFO  ArraySortServiceImpl - The sorted array: [-7, 0, 1, 2, 7, 8, 9, 13] (insertion sort)
+20:16:38.081 [main] INFO  Main - Basic array №1: [5, -2, 1, 16, 10, 3]
+20:16:38.086 [main] INFO  ArrayServiceImpl - The average is 5.5
+20:16:38.090 [main] INFO  ArrayServiceImpl - Evens are plussed with 3
+The changed array is [5, 1, 1, 19, 13, 3]
+20:16:38.091 [main] INFO  ArrayServiceImpl - The min is -2
+20:16:38.091 [main] INFO  ArrayServiceImpl - The max is 16
+20:16:38.092 [main] INFO  ArrayServiceImpl - The num of positives is 5
+20:16:38.093 [main] INFO  ArrayServiceImpl - The num of negatives is 1
+20:16:38.093 [main] INFO  ArrayServiceImpl - The sum is 33
+20:16:38.094 [main] INFO  ArraySortServiceImpl - The original array: [5, -2, 1, 16, 10, 3]
+20:16:38.094 [main] INFO  ArrayServiceImpl - The sum is 33
+20:16:38.094 [main] INFO  ArrayServiceImpl - The average is 5.5
+20:16:38.095 [main] INFO  ArrayServiceImpl - The min is -2
+20:16:38.095 [main] INFO  ArrayServiceImpl - The max is 16
+20:16:38.095 [main] INFO  ArraySortServiceImpl - The sorted array: [-2, 1, 3, 5, 10, 16] (bubble sort)
+20:16:38.095 [main] INFO  Main - Basic array №2: [-6, -9, -4, -11, 1, 6, 5, -3, 0]
+20:16:38.096 [main] INFO  ArrayServiceImpl - The average is -2.3333333333333335
+20:16:38.096 [main] INFO  ArrayServiceImpl - Evens are plussed with 5
+The changed array is [-1, -9, 1, -11, 1, 11, 5, -3, 5]
+20:16:38.096 [main] INFO  ArrayServiceImpl - The min is -11
+20:16:38.096 [main] INFO  ArrayServiceImpl - The max is 6
+20:16:38.096 [main] INFO  ArrayServiceImpl - The num of positives is 3
+20:16:38.096 [main] INFO  ArrayServiceImpl - The num of negatives is 5
+20:16:38.097 [main] INFO  ArrayServiceImpl - The sum is -21
+20:16:38.097 [main] INFO  ArraySortServiceImpl - The original array: [-6, -9, -4, -11, 1, 6, 5, -3, 0]
+20:16:38.097 [main] INFO  ArrayServiceImpl - The sum is -21
+20:16:38.097 [main] INFO  ArrayServiceImpl - The average is -2.3333333333333335
+20:16:38.097 [main] INFO  ArrayServiceImpl - The min is -11
+20:16:38.097 [main] INFO  ArrayServiceImpl - The max is 6
+20:16:38.098 [main] INFO  ArraySortServiceImpl - The sorted array: [-11, -9, -6, -4, -3, 0, 1, 5, 6] (selection sort)
+20:16:38.098 [main] INFO  Main - Basic array №3: [8, 2, -7, 1, 13, 0, 7, 9]
+20:16:38.098 [main] INFO  ArrayServiceImpl - The average is 4.125
+20:16:38.098 [main] INFO  ArrayServiceImpl - Evens are plussed with 2
+The changed array is [10, 4, -7, 1, 13, 2, 7, 9]
+20:16:38.098 [main] INFO  ArrayServiceImpl - The min is -7
+20:16:38.098 [main] INFO  ArrayServiceImpl - The max is 13
+20:16:38.098 [main] INFO  ArrayServiceImpl - The num of positives is 6
+20:16:38.099 [main] INFO  ArrayServiceImpl - The num of negatives is 1
+20:16:38.099 [main] INFO  ArrayServiceImpl - The sum is 33
+20:16:38.099 [main] INFO  ArraySortServiceImpl - The original array: [8, 2, -7, 1, 13, 0, 7, 9]
+20:16:38.099 [main] INFO  ArrayServiceImpl - The sum is 33
+20:16:38.099 [main] INFO  ArrayServiceImpl - The average is 4.125
+20:16:38.099 [main] INFO  ArrayServiceImpl - The min is -7
+20:16:38.099 [main] INFO  ArrayServiceImpl - The max is 13
+20:16:38.100 [main] INFO  ArraySortServiceImpl - The sorted array: [-7, 0, 1, 2, 7, 8, 9, 13] (insertion sort)
+20:22:03.787 [main] INFO  Main - Basic array №1: [5, -2, 1, 16, 10, 3]
+20:22:03.791 [main] INFO  ArrayServiceImpl - The average is 5.5
+20:22:03.793 [main] INFO  ArrayServiceImpl - Evens are plussed with 3
+The changed array is [5, 1, 1, 19, 13, 3]
+20:22:03.794 [main] INFO  ArrayServiceImpl - The min is -2
+20:22:03.794 [main] INFO  ArrayServiceImpl - The max is 16
+20:22:03.795 [main] INFO  ArrayServiceImpl - The num of positives is 5
+20:22:03.795 [main] INFO  ArrayServiceImpl - The num of negatives is 1
+20:22:03.796 [main] INFO  ArrayServiceImpl - The sum is 33
+20:22:03.796 [main] INFO  ArraySortServiceImpl - The original array: [5, -2, 1, 16, 10, 3]
+20:22:03.796 [main] INFO  ArrayServiceImpl - The sum is 33
+20:22:03.796 [main] INFO  ArrayServiceImpl - The average is 5.5
+20:22:03.796 [main] INFO  ArrayServiceImpl - The min is -2
+20:22:03.797 [main] INFO  ArrayServiceImpl - The max is 16
+20:22:03.797 [main] INFO  ArraySortServiceImpl - The sorted array: [-2, 1, 3, 5, 10, 16] (bubble sort)
+20:22:03.797 [main] INFO  Main - Basic array №2: [-6, -9, -4, -11, 1, 6, 5, -3, 0]
+20:22:03.797 [main] INFO  ArrayServiceImpl - The average is -2.3333333333333335
+20:22:03.797 [main] INFO  ArrayServiceImpl - Evens are plussed with 5
+The changed array is [-1, -9, 1, -11, 1, 11, 5, -3, 5]
+20:22:03.797 [main] INFO  ArrayServiceImpl - The min is -11
+20:22:03.797 [main] INFO  ArrayServiceImpl - The max is 6
+20:22:03.797 [main] INFO  ArrayServiceImpl - The num of positives is 3
+20:22:03.798 [main] INFO  ArrayServiceImpl - The num of negatives is 5
+20:22:03.798 [main] INFO  ArrayServiceImpl - The sum is -21
+20:22:03.798 [main] INFO  ArraySortServiceImpl - The original array: [-6, -9, -4, -11, 1, 6, 5, -3, 0]
+20:22:03.798 [main] INFO  ArrayServiceImpl - The sum is -21
+20:22:03.798 [main] INFO  ArrayServiceImpl - The average is -2.3333333333333335
+20:22:03.798 [main] INFO  ArrayServiceImpl - The min is -11
+20:22:03.798 [main] INFO  ArrayServiceImpl - The max is 6
+20:22:03.798 [main] INFO  ArraySortServiceImpl - The sorted array: [-11, -9, -6, -4, -3, 0, 1, 5, 6] (selection sort)
+20:22:03.798 [main] INFO  Main - Basic array №3: [8, 2, -7, 1, 13, 0, 7, 9]
+20:22:03.799 [main] INFO  ArrayServiceImpl - The average is 4.125
+20:22:03.799 [main] INFO  ArrayServiceImpl - Evens are plussed with 2
+The changed array is [10, 4, -7, 1, 13, 2, 7, 9]
+20:22:03.799 [main] INFO  ArrayServiceImpl - The min is -7
+20:22:03.799 [main] INFO  ArrayServiceImpl - The max is 13
+20:22:03.799 [main] INFO  ArrayServiceImpl - The num of positives is 6
+20:22:03.799 [main] INFO  ArrayServiceImpl - The num of negatives is 1
+20:22:03.799 [main] INFO  ArrayServiceImpl - The sum is 33
+20:22:03.799 [main] INFO  ArraySortServiceImpl - The original array: [8, 2, -7, 1, 13, 0, 7, 9]
+20:22:03.799 [main] INFO  ArrayServiceImpl - The sum is 33
+20:22:03.799 [main] INFO  ArrayServiceImpl - The average is 4.125
+20:22:03.799 [main] INFO  ArrayServiceImpl - The min is -7
+20:22:03.799 [main] INFO  ArrayServiceImpl - The max is 13
+20:22:03.800 [main] INFO  ArraySortServiceImpl - The sorted array: [-7, 0, 1, 2, 7, 8, 9, 13] (insertion sort)
+20:22:42.715 [main] INFO  Main - Basic array №1: [5, -2, 1, 16, 10, 3]
+20:22:42.719 [main] INFO  ArrayServiceImpl - The average is 5.5
+20:22:42.721 [main] INFO  ArrayServiceImpl - Evens are plussed with 3
+The changed array is [5, 1, 1, 19, 13, 3]
+20:22:42.722 [main] INFO  ArrayServiceImpl - Odds are plussed with 5
+The changed array is [10, -2, 6, 16, 10, 8]
+20:22:42.722 [main] INFO  ArrayServiceImpl - The min is -2
+20:22:42.723 [main] INFO  ArrayServiceImpl - The max is 16
+20:22:42.723 [main] INFO  ArrayServiceImpl - The num of positives is 5
+20:22:42.723 [main] INFO  ArrayServiceImpl - The num of negatives is 1
+20:22:42.724 [main] INFO  ArrayServiceImpl - The sum is 33
+20:22:42.724 [main] INFO  ArraySortServiceImpl - The original array: [5, -2, 1, 16, 10, 3]
+20:22:42.724 [main] INFO  ArrayServiceImpl - The sum is 33
+20:22:42.725 [main] INFO  ArrayServiceImpl - The average is 5.5
+20:22:42.725 [main] INFO  ArrayServiceImpl - The min is -2
+20:22:42.725 [main] INFO  ArrayServiceImpl - The max is 16
+20:22:42.725 [main] INFO  ArraySortServiceImpl - The sorted array: [-2, 1, 3, 5, 10, 16] (bubble sort)
+20:22:42.725 [main] INFO  Main - Basic array №2: [-6, -9, -4, -11, 1, 6, 5, -3, 0]
+20:22:42.725 [main] INFO  ArrayServiceImpl - The average is -2.3333333333333335
+20:22:42.725 [main] INFO  ArrayServiceImpl - Evens are plussed with 5
+The changed array is [-1, -9, 1, -11, 1, 11, 5, -3, 5]
+20:22:42.726 [main] INFO  ArrayServiceImpl - The min is -11
+20:22:42.726 [main] INFO  ArrayServiceImpl - The max is 6
+20:22:42.726 [main] INFO  ArrayServiceImpl - The num of positives is 3
+20:22:42.726 [main] INFO  ArrayServiceImpl - The num of negatives is 5
+20:22:42.726 [main] INFO  ArrayServiceImpl - The sum is -21
+20:22:42.726 [main] INFO  ArraySortServiceImpl - The original array: [-6, -9, -4, -11, 1, 6, 5, -3, 0]
+20:22:42.726 [main] INFO  ArrayServiceImpl - The sum is -21
+20:22:42.726 [main] INFO  ArrayServiceImpl - The average is -2.3333333333333335
+20:22:42.726 [main] INFO  ArrayServiceImpl - The min is -11
+20:22:42.726 [main] INFO  ArrayServiceImpl - The max is 6
+20:22:42.727 [main] INFO  ArraySortServiceImpl - The sorted array: [-11, -9, -6, -4, -3, 0, 1, 5, 6] (selection sort)
+20:22:42.727 [main] INFO  Main - Basic array №3: [8, 2, -7, 1, 13, 0, 7, 9]
+20:22:42.727 [main] INFO  ArrayServiceImpl - The average is 4.125
+20:22:42.727 [main] INFO  ArrayServiceImpl - Evens are plussed with 2
+The changed array is [10, 4, -7, 1, 13, 2, 7, 9]
+20:22:42.727 [main] INFO  ArrayServiceImpl - The min is -7
+20:22:42.727 [main] INFO  ArrayServiceImpl - The max is 13
+20:22:42.728 [main] INFO  ArrayServiceImpl - The num of positives is 6
+20:22:42.728 [main] INFO  ArrayServiceImpl - The num of negatives is 1
+20:22:42.728 [main] INFO  ArrayServiceImpl - The sum is 33
+20:22:42.728 [main] INFO  ArraySortServiceImpl - The original array: [8, 2, -7, 1, 13, 0, 7, 9]
+20:22:42.728 [main] INFO  ArrayServiceImpl - The sum is 33
+20:22:42.728 [main] INFO  ArrayServiceImpl - The average is 4.125
+20:22:42.728 [main] INFO  ArrayServiceImpl - The min is -7
+20:22:42.728 [main] INFO  ArrayServiceImpl - The max is 13
+20:22:42.729 [main] INFO  ArraySortServiceImpl - The sorted array: [-7, 0, 1, 2, 7, 8, 9, 13] (insertion sort)

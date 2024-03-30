@@ -7,6 +7,7 @@ import by.anastasia.task1.repository.specification.Specification;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
 
 public class ArrayRepositoryImpl implements ArrayRepository {
     private List<CustomArray> customArrays;
@@ -26,14 +27,18 @@ public class ArrayRepositoryImpl implements ArrayRepository {
     }
 
     @Override
-    public List<CustomArray> query(Specification specification) throws ArrayException {
-        List<CustomArray> results = new ArrayList<>();
+    public List<CustomArray> querySpecification(Specification specification) {
+        List<CustomArray> results = customArrays.stream()
+                .filter(array -> specification.specify(array))
+                .toList();
+        return results;
+    }
 
-        for (CustomArray array: customArrays) {
-            if (specification.specify(array)) {
-                results.add(array);
-            }
-        }
+    @Override
+    public List<CustomArray> queryPredicate(Predicate<CustomArray> predicate) {
+        List<CustomArray> results = customArrays.stream()
+                .filter(predicate)
+                .toList();
         return results;
     }
 }

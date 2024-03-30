@@ -32,7 +32,8 @@ public class Main {
     public static void main(String[] args) throws ArrayException {
         LOGGER.log(Level.INFO, "Basic array №1: " + Arrays.toString(basicArray1.getArray()));
         arrayService.calculateAverage(basicArray1);
-        arrayService.replaceElements(basicArray1);
+        arrayService.addToEvens(basicArray1, 3);
+        arrayService.addToOdds(basicArray1, 5);
         arrayService.findMin(basicArray1);
         arrayService.findMax(basicArray1);
         arrayService.countPositive(basicArray1);
@@ -42,7 +43,7 @@ public class Main {
 
         LOGGER.log(Level.INFO, "Basic array №2: " + Arrays.toString(basicArray2.getArray()));
         arrayService.calculateAverage(basicArray2);
-        arrayService.replaceElements(basicArray2);
+        arrayService.addToEvens(basicArray2, 5);
         arrayService.findMin(basicArray2);
         arrayService.findMax(basicArray2);
         arrayService.countPositive(basicArray2);
@@ -52,7 +53,7 @@ public class Main {
 
         LOGGER.log(Level.INFO, "Basic array №3: " + Arrays.toString(basicArray3.getArray()));
         arrayService.calculateAverage(basicArray3);
-        arrayService.replaceElements(basicArray3);
+        arrayService.addToEvens(basicArray3, 2);
         arrayService.findMin(basicArray3);
         arrayService.findMax(basicArray3);
         arrayService.countPositive(basicArray3);
